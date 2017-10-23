@@ -1,0 +1,25 @@
+<resources>
+    //Strings for buildings
+    <string name="app_name">HCC Maps</string>
+    <string name="buildingDonahue">Donahue</string>
+    <string name="buildingMarieb">Marieb</string>
+    <string name="buildingFrost">Frost</string>
+    <string name="buildingKitteridge">Kitteridge</string>
+    //Strings for floors
+    <string name="floor1">Floor One</string>
+    <string name="floor2">Floor Two</string>
+    <string name="floor3">Floor Three</string>
+    <string name="floor4">Floor Four</string>
+    <string name="floor5">Floor Five</string>
+    //strings for rooms
+    <string name="room_502">502</string>
+    <string name="room_503">503</string>
+    <string name="room_505">505</string>
+    <string name="room_507">507</string>
+    <string name="room_509">509</string>
+    <string name="room_512">512</string>
+    <string name="room_513">513</string>
+    <string name="room_514">514</string>
+    <string name="room_516">516</string>
+    <string name="room_518">518</string>
+</resources>

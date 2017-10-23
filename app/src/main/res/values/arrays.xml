@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buildings_array">
+        <item>@string/buildingDonahue</item>
+        <item>@string/buildingFrost</item>
+        <item>@string/buildingKitteridge</item>
+        <item>@string/buildingMarieb</item>
+    </string-array>
+    <string-array name="floors_array">
+        <item>@string/floor1</item>
+        <item>@string/floor2</item>
+        <item>@string/floor3</item>
+        <item>@string/floor4</item>
+        <item>@string/floor5</item>
+    </string-array>
+    <string-array name="rooms_array">
+        <item>@string/room_502</item>
+        <item>@string/room_503</item>
+        <item>@string/room_505</item>
+        <item>@string/room_507</item>
+        <item>@string/room_509</item>
+        <item>@string/room_512</item>
+        <item>@string/room_513</item>
+        <item>@string/room_514</item>
+        <item>@string/room_516</item>
+        <item>@string/room_518</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bb71996d6c56f2ade73a5f8e8e377f1d7a78c263">
+        <dex dex="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_41ccb98b4d6cfff0144e19f63ea022381de3c622\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ece74793c936cf97d3587dd0a6da3a7607e6f7d2\classes.dex" />
+    </item>
+
+</items>
