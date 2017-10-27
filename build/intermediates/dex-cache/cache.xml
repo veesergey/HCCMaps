@@ -3,21 +3,129 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\vsergeychik390\.android\build-cache\c5d0765d0e5e7676db5acce902d9aee72cdc4f91\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="bb71996d6c56f2ade73a5f8e8e377f1d7a78c263">
-        <dex dex="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_41ccb98b4d6cfff0144e19f63ea022381de3c622\classes.dex" />
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_613e91cd50aeb59d8b3f646be3ca1eb92a6003c3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\vsergeychik390\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_63d7a37369e5419f736806fa3ad9862a184f54ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\vsergeychik390\AndroidStudioProjects\HCCMaps\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ece74793c936cf97d3587dd0a6da3a7607e6f7d2\classes.dex" />
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_48367d6a7d98e3e4f6ed91f944977f90dd6e6ef7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\0246ce6fee53dccde9f8b1a015396fb9ee4dc3f5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7d016d168bc47b240e48fd9253b0d2d374f1e746\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\9f0ddbf69faab8102838c46b219f7e038b7deb68\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_25a9dad914800f1f8e80f921f413589c935cac9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\cf25fca5b7dd40e7a52ea8c51e3004d813bcf0e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee7f724b326ec2f21c55d001420797517b57da2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\54ad28d79daa2d7a173be4eb2eb1e3dd29036c9a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a141dda11e3bd054a75991b4061a2a0349946494\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="199afa0a74726d187f5b078e5fdcf2fe3f50e9c1">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3576631dc2d2b60139989dcc33aa50bf730d5ae4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\d5ef8065a63119565a8009978bb14887bf9359a5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c98cd2d8e5bf3252414c9c2454235bbd44a034d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\2840f472633303a645ab25a660465a7f4b6eb4f4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_77dd449f0b755420a5a0765e0cb23350c6ad4340\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_86645b385819a97d4792f502c421ebbe2be4cdfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\df2fe75d69a8c8bfcb8c522665f23738c857d064\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9fc6648b545e5d6f2c4814557d90e1bcc599cf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\6c6f2e2f17fb4acd328a6b818847611704457b91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa302a32d72dac0269b7d03aaa56c0cf234fbaf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\vsergeychik390\.android\build-cache\a0fa34dad26696b1a3630daf1b824ecd88be71b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\vsergeychik390\Downloads\HCCMaps-master\HCCMaps-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0530cb6aba808d50c8822a8981baa6564bda3cb7\classes.dex" />
     </item>
 
 </items>
