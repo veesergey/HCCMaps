@@ -25,4 +25,14 @@
         <item>@string/room_516</item>
         <item>@string/room_518</item>
     </string-array>
+    <string-array name="bathrooms_array">
+        <item>@string/mens_room</item>
+        <item>@string/womens_room</item>
+        <item>@string/unisex_room</item>
+    </string-array>
+    <string-array name="snacks_array">
+        <item>@string/subway</item>
+        <item>@string/starbucks</item>
+        <item>@string/pod</item>
+    </string-array>
 </resources>
