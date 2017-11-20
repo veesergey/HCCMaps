@@ -16,11 +16,8 @@ public class StartPage extends AppCompatActivity {
         setContentView(R.layout.activity_start_page);
     }
     public void open(View view) {
-
-
-        Intent intent = new Intent(this, DestinationPage.class);
+        Intent intent = new Intent(this, Destination2.class);
         startActivity(intent);
-
-
+        setContentView(R.layout.activity_destination2);
     }
 }

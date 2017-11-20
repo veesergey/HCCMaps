@@ -22,4 +22,14 @@
     <string name="room_514">514</string>
     <string name="room_516">516</string>
     <string name="room_518">518</string>
+    //strings for bathrooms
+    <string name="bathroom">Bathroom</string>
+    <string name="mens_room">Mens Room</string>
+    <string name="womens_room">Womens Room</string>
+    <string name="unisex_room">Unisex Room</string>
+    //strings for snacks
+    <string name="snacks">Snacks/Food</string>
+    <string name="subway">Subway</string>
+    <string name="starbucks">StarBucks</string>
+    <string name="pod">The Pod</string>
 </resources>
