@@ -13,6 +13,21 @@
         <item>@string/floor4</item>
         <item>@string/floor5</item>
     </string-array>
+    <string-array name="fourth_floor_rooms_array">
+        <item>@string/room_402</item>
+        <item>@string/room_403</item>
+        <item>@string/room_407</item>
+        <item>@string/room_409</item>
+        <item>@string/room_417</item>
+        <item>@string/room_419</item>
+        <item>@string/room_420</item>
+        <item>@string/room_421</item>
+        <item>@string/room_422</item>
+        <item>@string/room_423</item>
+        <item>@string/room_424</item>
+        <item>@string/room_427</item>
+
+    </string-array>
     <string-array name="rooms_array">
         <item>@string/room_502</item>
         <item>@string/room_503</item>

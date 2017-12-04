@@ -61,7 +61,7 @@
 
     <Spinner
         android:id="@+id/roomSpinner"
-        android:entries="@array/rooms_array"
+        
         android:layout_width="145dp"
         android:layout_height="31dp"
         android:layout_marginRight="8dp"
@@ -115,7 +115,6 @@
 
     <Spinner
         android:id="@+id/destRoomSpinner"
-        android:entries="@array/rooms_array"
         android:layout_width="145dp"
         android:layout_height="31dp"
         android:layout_marginRight="8dp"

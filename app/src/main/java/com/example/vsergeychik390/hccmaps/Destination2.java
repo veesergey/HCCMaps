@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import java.util.List;
@@ -17,9 +20,60 @@ public class Destination2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destination2);
+
+        //Getting the spinners to cooperate
+        final Spinner floorSpinner = (Spinner) findViewById(R.id.floorSpinner);
+        final Spinner roomSpinner = (Spinner) findViewById(R.id.roomSpinner);
+
+        final Spinner destFloorSpinner = (Spinner) findViewById(R.id.destFloorSpinner);
+        final Spinner destRoomSpinner = (Spinner) findViewById(R.id.destRoomSpinner);
+
+        String[] fifthFloorRooms = getResources().getStringArray(R.array.rooms_array);
+        String[] fourthFloorRooms = getResources().getStringArray(R.array.fourth_floor_rooms_array);
+
+        final ArrayAdapter<String> fifthFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, fifthFloorRooms);
+        final ArrayAdapter<String> fourthfloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, fourthFloorRooms);
+
+        floorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id){
+                if (floorSpinner.getSelectedItemPosition() == 3){
+                    roomSpinner.setAdapter(fourthfloorAdapter);
+                }else if (floorSpinner.getSelectedItemPosition() == 4){
+                    roomSpinner.setAdapter(fifthFloorAdapter);
+                }else
+                    roomSpinner.setAdapter(null);
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+        destFloorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id){
+                if (destFloorSpinner.getSelectedItemPosition() == 3){
+                    destRoomSpinner.setAdapter(fourthfloorAdapter);
+                }else if (destFloorSpinner.getSelectedItemPosition() == 4){
+                    destRoomSpinner.setAdapter(fifthFloorAdapter);
+                }else
+                    destRoomSpinner.setAdapter(null);
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+
     }
 
-        public void showConfirmButtonClicked(View view){
+
+    public void showConfirmButtonClicked(View view){
             //setup the alert builder
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Confirm Location and Destination");
@@ -35,7 +89,7 @@ public class Destination2 extends AppCompatActivity {
             builder.setMessage("Location: " + buildingSpinner.getSelectedItem().toString() + " " +
                     floorSpinner.getSelectedItem().toString() + " Rm " + roomSpinner.getSelectedItem().toString()
                     + "\nDestination:" + destBuildingSpinner.getSelectedItem().toString() + " " + destFloorSpinner.getSelectedItem().toString() +
-                    " " + destRoomSpinner.getSelectedItem().toString() + "\nIs this correct?");
+                    " Rm " + destRoomSpinner.getSelectedItem().toString() + "\nIs this correct?");
 
             //add the buttons
             builder.setPositiveButton("Confirm", new DialogInterface.OnClickListener(){
