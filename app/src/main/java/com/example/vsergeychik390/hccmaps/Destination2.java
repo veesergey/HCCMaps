@@ -30,20 +30,30 @@ public class Destination2 extends AppCompatActivity {
 
         String[] fifthFloorRooms = getResources().getStringArray(R.array.rooms_array);
         String[] fourthFloorRooms = getResources().getStringArray(R.array.fourth_floor_rooms_array);
+        String[] thirdFloorRooms = getResources().getStringArray(R.array.third_floor_rooms_array);
+        String[] secondFloorRooms = getResources().getStringArray(R.array.second_floor_rooms_array);
+        String[] firstFloorRooms = getResources().getStringArray(R.array.first_floor_rooms_array);
 
         final ArrayAdapter<String> fifthFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, fifthFloorRooms);
-        final ArrayAdapter<String> fourthfloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, fourthFloorRooms);
+        final ArrayAdapter<String> fourthFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, fourthFloorRooms);
+        final ArrayAdapter<String> thirdFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, thirdFloorRooms);
+        final ArrayAdapter<String> secondFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, secondFloorRooms);
+        final ArrayAdapter<String> firstFloorAdapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, firstFloorRooms);
+
 
         floorSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id){
                 if (floorSpinner.getSelectedItemPosition() == 3){
-                    roomSpinner.setAdapter(fourthfloorAdapter);
+                    roomSpinner.setAdapter(fourthFloorAdapter);
                 }else if (floorSpinner.getSelectedItemPosition() == 4){
                     roomSpinner.setAdapter(fifthFloorAdapter);
-                }else
-                    roomSpinner.setAdapter(null);
-
+                }else if (floorSpinner.getSelectedItemPosition() == 2){
+                    roomSpinner.setAdapter(thirdFloorAdapter);}
+                else if (floorSpinner.getSelectedItemPosition() == 1){
+                    roomSpinner.setAdapter(secondFloorAdapter);}
+                else if (floorSpinner.getSelectedItemPosition() == 0){
+                    roomSpinner.setAdapter(firstFloorAdapter);}
             }
 
             @Override
@@ -55,11 +65,15 @@ public class Destination2 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id){
                 if (destFloorSpinner.getSelectedItemPosition() == 3){
-                    destRoomSpinner.setAdapter(fourthfloorAdapter);
+                    destRoomSpinner.setAdapter(fourthFloorAdapter);
                 }else if (destFloorSpinner.getSelectedItemPosition() == 4){
                     destRoomSpinner.setAdapter(fifthFloorAdapter);
-                }else
-                    destRoomSpinner.setAdapter(null);
+                }else if (destFloorSpinner.getSelectedItemPosition() == 2) {
+                    destRoomSpinner.setAdapter(thirdFloorAdapter);
+                }else if (destFloorSpinner.getSelectedItemPosition() == 1) {
+                    destRoomSpinner.setAdapter(secondFloorAdapter);
+                }else if (destFloorSpinner.getSelectedItemPosition() == 0){
+                    destRoomSpinner.setAdapter(firstFloorAdapter);}
 
             }
 

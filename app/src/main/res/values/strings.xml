@@ -11,6 +11,12 @@
     <string name="floor3">Floor Three</string>
     <string name="floor4">Floor Four</string>
     <string name="floor5">Floor Five</string>
+    //String for first floor rooms
+    <string name="room_100">100</string>
+    //String for second floor rooms
+    <string name="room_200">200</string>
+    //String for third floor rooms
+    <string name="room_300">300</string>
     //Strings for fourth floor rooms
     <string name="room_401">401</string>
     <string name="room_402">402</string>
@@ -26,16 +32,16 @@
     <string name="room_424">424</string>
     <string name="room_427">427</string>
     //strings for fifth floor rooms
+    <string name="room_501">501</string>
     <string name="room_502">502</string>
     <string name="room_503">503</string>
     <string name="room_505">505</string>
     <string name="room_507">507</string>
     <string name="room_509">509</string>
-    <string name="room_512">512</string>
     <string name="room_513">513</string>
     <string name="room_514">514</string>
+    <string name="room_515">515</string>
     <string name="room_516">516</string>
-    <string name="room_518">518</string>
     //strings for bathrooms
     <string name="bathroom">Bathroom</string>
     <string name="mens_room">Mens Room</string>
