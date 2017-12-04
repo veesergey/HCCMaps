@@ -1,6 +1,8 @@
 package com.example.vsergeychik390.hccmaps;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,14 +17,17 @@ public class Directions extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_directions);
 
-        Intent intent = getIntent();
-        String directions = intent.getStringExtra("directions");
+        String route = "";
+
+        SharedPreferences sp = getSharedPreferences("RoutePrefs",
+                        Context.MODE_PRIVATE);
+        route = sp.getString("Route", route);
 
 
 
         TextView routeBox = (TextView) findViewById(R.id.messageBox);
 
-        routeBox.setText(directions);
+        routeBox.setText(route);
 
 
     }

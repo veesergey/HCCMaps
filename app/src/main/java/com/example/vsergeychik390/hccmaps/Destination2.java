@@ -1,7 +1,9 @@
 package com.example.vsergeychik390.hccmaps;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,10 +15,14 @@ import java.util.List;
 
 public class Destination2 extends AppCompatActivity {
 
+
+    AStarNav nav;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destination2);
+        nav = new AStarNav(this);
     }
 
         public void showConfirmButtonClicked(View view){
@@ -147,22 +153,26 @@ public class Destination2 extends AppCompatActivity {
                             {'@', '@', '@', '@', '@', '@', '@'}
                     };
 
-                    AStarNav nav = new AStarNav();
-
                     List<String[]> route = nav.getPath(startCord, endCord, charMatrix);
 
                     Intent directionInt = new Intent(Destination2.this, Directions.class);
 
                     String routeString = "";
 
-                    for (int i = 0; i < route.size(); i++){
-                        routeString += route.get(i)[0] + " ";
-                        routeString += route.get(i)[1] + "\n";
+                    Log.d("Size: ", String.valueOf(route.get(2)[2]));
+
+                    for (int i = 0; i < route.size(); i++) {
+                        routeString += route.get(i)[0] + "";
+                        routeString += route.get(i)[1] + "";
+                        routeString += route.get(i)[2] + "\n";
                     }
 
                     Log.d("Route: ", routeString);
 
-                    directionInt.putExtra("directions", routeString);
+                    SharedPreferences sp = getSharedPreferences("RoutePrefs", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sp.edit();
+                    editor.putString("Route", routeString);
+                    editor.commit();
 
                     startActivity(new Intent(Destination2.this, Directions.class));
                 }

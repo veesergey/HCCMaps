@@ -2,9 +2,16 @@ package com.example.vsergeychik390.hccmaps; /**
  * Created by jacobbashista on 11/17/17.
  */
 
+import android.content.Context;
+import android.util.Log;
+
+import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
 
 import GridNav.GridNav;
 import GridNav.Options;
@@ -72,8 +79,10 @@ public class AStarNav {
 //    routeText.setText(routeString);
 
 
-    public AStarNav(){
+    private Context context;
 
+    public AStarNav(Context current){
+        this.context = current;
     }
 
 
@@ -127,45 +136,45 @@ public class AStarNav {
                     task = "Straight ";
 
                     if (p0.getY() > p2.getY()) {
-                        cardinal = "North ";
+                        cardinal = "North, ";
                         heading = "North";
                     } else if (p0.getY() < p2.getY()) {
-                        cardinal = "South ";
+                        cardinal = "South, ";
                         heading = "South";
                     } else if (p0.getX() < p2.getX()) {
-                        cardinal = "East ";
+                        cardinal = "East, ";
                         heading = "East";
                     } else {
-                        cardinal = "West ";
+                        cardinal = "West, ";
                         heading = "West";
                     }
 
-                    String[] direction = new String[]{task, cardinal};
+                    String[] direction = new String[]{task, cardinal, checkCordData(p0)};
 
                     route.add(direction);
 
                     wasStraight = true;
                 } else if (exactAngle == 90) {
-                    task = "Turn ";
+                    task = "Turn, ";
 
                     if (heading == "North" && (p0.getX() > p2.getX())) {
-                        cardinal = "West ";
+                        cardinal = "West, ";
                     } else if (heading == "North" && (p0.getX() < p2.getX())) {
-                        cardinal = "East ";
+                        cardinal = "East, ";
                     } else if (heading == "South" && (p0.getX() > p2.getX())) {
-                        cardinal = "West ";
+                        cardinal = "West, ";
                     } else if (heading == "South" && (p0.getX() < p2.getX())) {
-                        cardinal = "East ";
+                        cardinal = "East, ";
                     } else if (heading == "East" && (p0.getY() > p2.getY())) {
-                        cardinal = "South ";
+                        cardinal = "South, ";
                     } else if (heading == "East" && (p0.getY() < p2.getY())) {
-                        cardinal = "North ";
+                        cardinal = "North, ";
                     } else if (heading == "West" && (p0.getY() > p2.getY())) {
-                        cardinal = "North ";
+                        cardinal = "North, ";
                     } else {
-                        cardinal = "South ";
+                        cardinal = "South, ";
                     }
-                    String[] direction = new String[]{task, cardinal};
+                    String[] direction = new String[]{task, cardinal, checkCordData(p0)};
                     route.add(direction);
                     wasStraight = false;
                 }
@@ -177,8 +186,34 @@ public class AStarNav {
     }
 
     String checkCordData(Vertex cCord){
-        //Check Michelle's Database Here.
-        return "No Data";
+
+
+        int x = cCord.getX();
+        int y = cCord.getY();
+
+        String data = "No Data";
+
+
+        InputStream inputStream = context.getResources().openRawResource(R.raw.floor5);
+        CSVFile csvFile = new CSVFile(inputStream);
+        List<String[]> pointsList = csvFile.read();
+
+        for (int i = 0; i < pointsList.size(); i++){
+
+            String[] line = pointsList.get(i);
+
+            int lX = Integer.parseInt(line[0]);
+            int lY = Integer.parseInt(line[1]);
+            String type = line[2];
+            String name = line[3];
+
+            if(lX == x && lY == y){
+                data = name + " " + type;
+            }
+
+        }
+
+        return data;
     }
 
     Double findAngle(Vertex p0,Vertex p1, Vertex p2) {
