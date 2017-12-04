@@ -17,6 +17,12 @@ public class Destination2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_destination2);
+
+        //Michelle Hudela
+        //used from: http://javapapers.com/android/android-read-csv-file/
+        InputStream inputStream = getResources().openRawResource(R.raw.floor5);
+        CSVFile csvFile = new CSVFile(inputStream);
+        List floor5 = csvFile.read();
     }
 
         public void showConfirmButtonClicked(View view){
