@@ -12,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jacobbashista/Desktop/HCCMaps/app/src/main/java/com/example/vsergeychik390/hccmaps/GridNav-Java.jar"
+        jar="/Users/jacobbashista/Desktop/HCCMaps/app/src/main/java/com/example/vsergeychik390/hccmaps/commons-io-2.6.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="e149b47bc5fec320aa0b3fe3d79759bf35459365">
-        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/2/GridNav-Java_11c775e6c4483231418a29ac93638324c4410eba/classes.dex" />
+        sha1="815893df5f31da2ece4040fe0a12fd44b577afaf">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-io-2.6_3b00b2c85fcbbc1e1290d2b9a43a908239254945/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -27,6 +27,15 @@
         revision="26.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_60edad606badbfabbaee70b0a82385f8d9ca1dd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jacobbashista/Desktop/HCCMaps/app/src/main/java/com/example/vsergeychik390/hccmaps/GridNav-Java.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e149b47bc5fec320aa0b3fe3d79759bf35459365">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/2/GridNav-Java_11c775e6c4483231418a29ac93638324c4410eba/classes.dex" />
     </item>
 
 </items>

@@ -5,6 +5,10 @@ package com.example.vsergeychik390.hccmaps; /**
 import android.content.Context;
 import android.util.Log;
 
+import org.apache.commons.io.IOUtils;
+
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.util.ArrayDeque;
@@ -20,65 +24,6 @@ import GridNav.Vertex;
 
 public class AStarNav {
 
-// Example Use
-//    AStarNav nav = new AStarNav();
-//
-//    char[][] charMatrix = {
-//            {'@', '@', '@', '@', '@', '@', '@'},
-//            {'@', '@', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '.', '@'},
-//            {'@', '.', '.', '.', '.', '.', '@'},
-//            {'@', '@', '.', '@', '@', '.', '@'},
-//            {'@', '@', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '.', '.', '.', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '.', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '@', '@', '@', '@'},
-//            {'@', '@', '.', '@', '@', '@', '@'},
-//            {'@', '.', '.', '@', '@', '@', '@'},
-//            {'@', '@', '@', '@', '@', '@', '@'}
-//    };
-//
-//
-//    int[] start = {28, 3};
-//    int[] end = {17, 1};
-//
-//    TextView routeText = findViewById(R.id.mainText);
-//
-//    String routeString = "";
-//
-//
-//    List<String[]> route = nav.getPath(start, end, charMatrix);
-//
-//        for (int i = 0; i < route.size(); i++){
-//        routeString += route.get(i)[0] + " ";
-//        routeString += route.get(i)[1] + "\n";
-//    }
-//
-//    routeText.setText(routeString);
-
-
     private Context context;
 
     public AStarNav(Context current){
@@ -86,11 +31,25 @@ public class AStarNav {
     }
 
 
-    public List<String[]> getPath(int[] startCord, int[] endCord,char[][] charMatrix){
+    public List<String[]> getPath(int[] startCord, int[] endCord){
         GridNav gn = new GridNav();
 
 
-        gn.loadCharMatrix(charMatrix);
+        InputStream in = context.getResources().openRawResource(R.raw.kittredge);
+        try {
+            File file = File.createTempFile("floor", ".map");
+
+            file.deleteOnExit();
+            FileOutputStream out = new FileOutputStream(file);
+            IOUtils.copy(in, out);
+            gn.loadCharMatrix(gn.dotMapToCharMatrix(file));
+
+
+        }catch(Exception ex) {
+            ex.printStackTrace();
+        }
+
+
 
         int[] start = startCord;
         int[] goal = endCord;
@@ -100,11 +59,16 @@ public class AStarNav {
 
         List<String[]> route = new ArrayList<>();
 
+        Log.d("Start", String.valueOf(start[0]));
+        Log.d("End", String.valueOf(goal[0]));
+
 
         int i = 0;
         boolean wasStraight = false;
         String heading = "";
         String cordData;
+
+        Log.d("Route: ", bestRoute.toString());
 
         while(!bestRoute.isEmpty()) {
 
@@ -119,6 +83,7 @@ public class AStarNav {
                 Vertex p0 = (Vertex) pHis.get(0);
                 Vertex p1 = (Vertex) pHis.get(1);
                 Vertex p2 = (Vertex) pHis.get(2);
+
 
                 Double angle = findAngle(v, p1, p2) * 180 / 3.14;
 
@@ -180,6 +145,8 @@ public class AStarNav {
                 }
             }
         }
+
+        Log.d("Route", route.toString());
 
         return route;
 
