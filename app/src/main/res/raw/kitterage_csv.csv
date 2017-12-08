@@ -1,0 +1,205 @@
+2,1,Hallway,5th Floor
+2,2,Hallway,5th Floor
+2,3,Hallway,5th Floor
+2,4,Hallway,5th Floor
+2,5,Hallway,5th Floor
+2,6,Hallway,5th Floor
+2,7,Hallway,5th Floor
+2,8,Hallway,5th Floor
+2,9,Hallway,5th Floor
+2,10,Hallway,5th Floor
+2,11,Hallway,5th Floor
+2,12,Hallway,5th Floor
+2,13,Hallway,5th Floor
+2,14,Hallway,5th Floor
+2,15,Hallway,5th Floor
+2,16,Hallway,5th Floor
+2,17,Hallway,5th Floor
+2,18,Hallway,5th Floor
+2,19,Hallway,5th Floor
+2,20,Hallway,5th Floor
+2,21,Hallway,5th Floor
+2,22,Hallway,5th Floor
+2,23,Hallway,5th Floor
+2,24,Hallway,5th Floor
+2,25,Hallway,5th Floor
+2,26,Hallway,5th Floor
+2,27,Hallway,5th Floor
+2,28,Hallway,5th Floor
+2,29,Hallway,5th Floor
+2,30,Hallway,5th Floor
+2,31,Hallway,5th Floor
+3,17,Hallway,5th Floor
+4,17,Hallway,5th Floor
+5,17,Hallway,5th Floor
+3,20,Hallway,5th Floor
+4,20,Hallway,5th Floor
+5,21,Stairs,5th Floor
+3,1,Stairs,5th Floor
+3,19,Elevator,5th Floor
+1,21,Lounge,5th Floor
+2,32,Lounge,5th Floor
+5,16,Bathroom,508 B
+5,18,Bathroom,508 A
+3,3,Classroom,518
+3,7,Classroom,516
+3,13,Classroom,514
+1,17,Office,513
+1,24,Office,509
+1,26,Office,507
+1,28,Office,505
+1,30,Office,503
+1,32,Office,501
+3,28,Classroom,502
+2,36,Hallway,4th Floor
+2,37,Hallway,4th Floor
+2,38,Hallway,4th Floor
+2,39,Hallway,4th Floor
+2,40,Hallway,4th Floor
+2,41,Hallway,4th Floor
+2,42,Hallway,4th Floor
+2,43,Hallway,4th Floor
+2,44,Hallway,4th Floor
+2,45,Hallway,4th Floor
+2,46,Hallway,4th Floor
+2,47,Hallway,4th Floor
+2,48,Hallway,4th Floor
+2,49,Hallway,4th Floor
+2,50,Hallway,4th Floor
+2,51,Hallway,4th Floor
+2,52,Hallway,4th Floor
+2,53,Hallway,4th Floor
+2,54,Hallway,4th Floor
+2,55,Hallway,4th Floor
+2,56,Hallway,4th Floor
+2,57,Hallway,4th Floor
+2,58,Hallway,4th Floor
+2,59,Hallway,4th Floor
+2,60,Hallway,4th Floor
+2,61,Hallway,4th Floor
+2,62,Hallway,4th Floor
+2,63,Hallway,4th Floor
+2,64,Hallway,4th Floor
+2,65,Hallway,4th Floor
+2,66,Hallway,4th Floor
+2,67,Hallway,4th Floor
+3,52,Hallway,4th Floor
+4,52,Hallway,4th Floor
+5,52,Hallway,4th Floor
+3,57,Hallway,4th Floor
+4,57,Hallway,4th Floor
+3,36,Stairs,4th Floor
+3,56,Stairs,4th Floor
+3,54,Elevator,4th Floor
+1,56,Lounge,4th Floor
+2,68,Lounge,4th Floor
+4,51,Bathroom,414 B
+5,51,Bathroom,414 A
+4,53,Bathroom,412 B
+5,53,Bathroom,412 A
+5,57,Bridge,4th Floor
+3,28,Classroom,424
+3,42,Classroom,422
+3,48,Classroom,420
+3,63,Classroom,402
+1,41,Office,427
+1,43,Office,425
+1,45,Office,423
+1,47,Office,421
+1,49,Office,419
+1,51,Office,417
+1,59,Classroom,409
+1,61,Classroom,407
+1,63,Classroom,403
+1,65,Classroom,401
+8,1,NT,5th Floor
+8,2,NT,5th Floor
+8,3,NT,5th Floor
+8,4,NT,5th Floor
+8,5,NT,5th Floor
+8,6,NT,5th Floor
+8,7,NT,5th Floor
+8,8,NT,5th Floor
+8,9,NT,5th Floor
+8,10,NT,5th Floor
+8,11,NT,5th Floor
+8,12,NT,5th Floor
+8,13,NT,5th Floor
+8,14,NT,5th Floor
+8,15,NT,5th Floor
+8,16,NT,5th Floor
+8,17,NT,5th Floor
+8,18,NT,5th Floor
+8,19,NT,5th Floor
+8,20,NT,5th Floor
+8,21,NT,5th Floor
+8,22,NT,5th Floor
+8,23,NT,5th Floor
+8,24,NT,5th Floor
+8,25,NT,5th Floor
+8,26,NT,5th Floor
+8,27,NT,5th Floor
+8,28,NT,5th Floor
+8,29,NT,5th Floor
+8,30,NT,5th Floor
+8,31,NT,5th Floor
+8,32,NT,5th Floor
+8,33,NT,5th Floor
+8,34,NT,5th Floor
+8,35,NT,4th Floor
+8,36,NT,4th Floor
+8,37,NT,4th Floor
+8,38,NT,4th Floor
+8,39,NT,4th Floor
+8,40,NT,4th Floor
+8,41,NT,4th Floor
+8,42,NT,4th Floor
+8,43,NT,4th Floor
+8,44,NT,4th Floor
+8,45,NT,4th Floor
+8,46,NT,4th Floor
+8,47,NT,4th Floor
+8,48,NT,4th Floor
+8,49,NT,4th Floor
+8,50,NT,4th Floor
+8,51,NT,4th Floor
+8,52,NT,4th Floor
+8,53,NT,4th Floor
+8,54,NT,4th Floor
+8,55,NT,4th Floor
+8,56,NT,4th Floor
+8,57,NT,4th Floor
+8,58,NT,4th Floor
+8,59,NT,4th Floor
+8,60,NT,4th Floor
+8,61,NT,4th Floor
+8,62,NT,4th Floor
+8,63,NT,4th Floor
+8,64,NT,4th Floor
+8,65,NT,4th Floor
+8,66,NT,4th Floor
+8,67,NT,4th Floor
+8,68,NT,4th Floor
+8,69,NT,4th Floor
+4,1,NT,5th Floor
+5,1,NT,5th Floor
+6,1,NT,5th Floor
+7,1,NT,5th Floor
+4,19,NT,5th Floor
+5,19,NT,5th Floor
+6,19,NT,5th Floor
+7,19,NT,5th Floor
+6,21,NT,5th Floor
+7,21,NT,5th Floor
+4,36,NT,4th Floor
+5,36,NT,4th Floor
+6,36,NT,4th Floor
+7,36,NT,4th Floor
+4,54,NT,4th Floor
+5,54,NT,4th Floor
+6,54,NT,4th Floor
+7,54,NT,4th Floor
+4,56,NT,4th Floor
+5,56,NT,4th Floor
+6,56,NT,4th Floor
+7,56,NT,4th Floor
