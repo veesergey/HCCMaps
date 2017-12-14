@@ -3,13 +3,10 @@ package com.example.vsergeychik390.hccmaps; /**
  */
 
 import android.content.Context;
-import android.util.Log;
 
 import java.io.InputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 
@@ -194,7 +191,7 @@ public class AStarNav {
         String data = "No Data";
 
 
-        InputStream inputStream = context.getResources().openRawResource(R.raw.kitterage_csv);
+        InputStream inputStream = context.getResources().openRawResource(R.raw.kitterageCSVnew);
         CSVFile csvFile = new CSVFile(inputStream);
         List<String[]> pointsList = csvFile.read();
 
