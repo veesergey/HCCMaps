@@ -1,10 +1,10 @@
 <resources>
     //Strings for buildings
     <string name="app_name">HCC Maps</string>
+    <string name="buildingKitteridge">Kitteridge</string>
     <string name="buildingDonahue">Donahue</string>
     <string name="buildingMarieb">Marieb</string>
     <string name="buildingFrost">Frost</string>
-    <string name="buildingKitteridge">Kitteridge</string>
     //Strings for floors
     <string name="floor1">Floor One</string>
     <string name="floor2">Floor Two</string>

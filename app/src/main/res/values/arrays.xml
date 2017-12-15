@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="buildings_array">
+        <item>@string/buildingKitteridge</item>
         <item>@string/buildingDonahue</item>
         <item>@string/buildingFrost</item>
-        <item>@string/buildingKitteridge</item>
         <item>@string/buildingMarieb</item>
     </string-array>
     <string-array name="floors_array">
