@@ -17,12 +17,35 @@
         <item>@string/room_100</item>
     </string-array>
     <string-array name="second_floor_rooms_array">
-        <item>@string/room_200</item>
+        <item>@string/room_201</item>
+        <item>@string/room_203</item>
+        <item>@string/room_204</item>
+        <item>@string/room_205</item>
+        <item>@string/room_211</item>
+        <item>@string/room_215</item>
+        <item>@string/room_217</item>
+        <item>@string/room_219</item>
+        <item>@string/room_220</item>
+        <item>@string/room_221</item>
+        <item>@string/room_222</item>
+        <item>@string/room_224</item>
+        <item>@string/room_226</item>
     </string-array>
     <string-array name="third_floor_rooms_array">
-        <item>@string/room_300</item>
+        <item>@string/room_303</item>
+        <item>@string/room_307</item>
+        <item>@string/room_309</item>
+        <item>@string/room_311</item>
+        <item>@string/room_312</item>
+        <item>@string/room_313</item>
+        <item>@string/room_314</item>
+        <item>@string/room_315</item>
+        <item>@string/room_316</item>
+        <item>@string/room_319</item>
+        <item>@string/room_322</item>
     </string-array>
     <string-array name="fourth_floor_rooms_array">
+        <item>@string/room_401</item>
         <item>@string/room_402</item>
         <item>@string/room_403</item>
         <item>@string/room_407</item>

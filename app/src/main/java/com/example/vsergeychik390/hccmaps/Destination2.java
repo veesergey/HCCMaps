@@ -126,47 +126,182 @@ public class Destination2 extends AppCompatActivity {
 
 
                     Log.d("Start Floor", sFloor);
+                    Log.d("End Floor", eFloor);
+
+                    Log.d("Start Room", sRoom);
+                    Log.d("End Room", eRoom);
 
                     switch (sFloor){
                         case ("Floor One"):
                             break;
                         case ("Floor Two"):
+                            switch(sRoom){
+                                case ("201"):
+                                    startCord = new int[] {139, 1};
+                                    break;
+                                case ("203"):
+                                    startCord = new int[] {135, 1};
+                                    break;
+                                case ("204"):
+                                    startCord = new int[] {130, 4};
+                                    break;
+                                case ("205"):
+                                    startCord = new int[] {133, 1};
+                                    break;
+                                case ("211"):
+                                    startCord = new int[] {122, 2};
+                                    break;
+                                case ("215"):
+                                    startCord = new int[] {120, 2};
+                                    break;
+                                case ("217"):
+                                    startCord = new int[] {118, 2};
+                                    break;
+                                case ("219"):
+                                    startCord = new int[] {116, 2};
+                                    break;
+                                case ("220"):
+                                    startCord = new int[] {121, 4};
+                                    break;
+                                case ("221"):
+                                    startCord = new int[] {114, 2};
+                                    break;
+                                case ("222"):
+                                    startCord = new int[] {119, 4};
+                                    break;
+                                case ("224"):
+                                    startCord = new int[] {115, 4};
+                                    break;
+                                case ("226"):
+                                    startCord = new int[] {111, 4};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Three"):
+                            switch(sRoom){
+                                case ("302"):
+                                    startCord = new int[] {97, 5};
+                                    break;
+                                case ("303"):
+                                    startCord = new int[] {92, 1};
+                                    break;
+                                case ("307"):
+                                    startCord = new int[] {88, 1};
+                                    break;
+                                case ("309"):
+                                    startCord = new int[] {86, 1};
+                                    break;
+                                case ("311"):
+                                    startCord = new int[] {84, 1};
+                                    break;
+                                case ("312"):
+                                    startCord = new int[] {85, 4};
+                                    break;
+                                case ("313"):
+                                    startCord = new int[] {82, 1};
+                                    break;
+                                case ("314"):
+                                    startCord = new int[] {83, 4};
+                                    break;
+                                case ("315"):
+                                    startCord = new int[] {80, 1};
+                                    break;
+                                case ("316"):
+                                    startCord = new int[] {79, 4};
+                                    break;
+                                case ("319"):
+                                    startCord = new int[] {78, 1};
+                                    break;
+                                case ("322"):
+                                    startCord = new int[] {75, 4};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Four"):
+                            switch(sRoom){
+                                case ("401"):
+                                    startCord = new int[] {67, 1};
+                                    break;
+                                case ("402"):
+                                    startCord = new int[] {65, 3};
+                                    break;
+                                case ("403"):
+                                    startCord = new int[] {65, 1};
+                                    break;
+                                case ("407"):
+                                    startCord = new int[] {63, 1};
+                                    break;
+                                case ("409"):
+                                    startCord = new int[] {61, 1};
+                                    break;
+                                case ("417"):
+                                    startCord = new int[] {52, 1};
+                                    break;
+                                case ("419"):
+                                    startCord = new int[] {50, 1};
+                                    break;
+                                case ("420"):
+                                    startCord = new int[] {49, 3};
+                                    break;
+                                case ("421"):
+                                    startCord = new int[] {48, 1};
+                                    break;
+                                case ("422"):
+                                    startCord = new int[] {43, 3};
+                                    break;
+                                case ("423"):
+                                    startCord = new int[] {46, 1};
+                                    break;
+                                case ("424"):
+                                    startCord = new int[] {40, 3};
+                                    break;
+                                case ("425"):
+                                    startCord = new int[] {44, 1};
+                                    break;
+                                case ("427"):
+                                    startCord = new int[] {42, 1};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Five"):
                             switch(sRoom){
-                                case ("518"):
-                                    startCord = new int[] {3, 3};
+                                case ("501"):
+                                    startCord = new int[] {33, 1};
                                     break;
-                                case ("516"):
-                                    startCord = new int[] {7, 3};
+                                case ("502"):
+                                    startCord = new int[] {29, 3};
                                     break;
-                                case ("514"):
-                                    startCord = new int[] {13, 3};
+                                case ("503"):
+                                    startCord = new int[] {31, 1};
+                                    break;
+                                case ("505"):
+                                    startCord = new int[] {29, 1};
+                                    break;
+                                case ("507"):
+                                    startCord = new int[] {27, 1};
+                                    break;
+                                case ("509"):
+                                    startCord = new int[] {25, 1};
                                     break;
                                 case ("513"):
                                     startCord = new int[] {17, 1};
                                     break;
-                                case ("509"):
-                                    startCord = new int[] {24, 1};
+                                case ("514"):
+                                    startCord = new int[] {13, 3};
                                     break;
-                                case ("507"):
-                                    startCord = new int[] {26, 1};
+                                case ("516"):
+                                    startCord = new int[] {7, 3};
                                     break;
-                                case ("505"):
-                                    startCord = new int[] {28, 1};
+                                case ("518"):
+                                    startCord = new int[] {3, 3};
                                     break;
-                                case ("503"):
-                                    startCord = new int[] {30, 1};
-                                    break;
-                                case ("501"):
-                                    startCord = new int[] {32, 1};
-                                    break;
-                                case ("502"):
-                                    startCord = new int[] {28, 3};
+                                default:
                                     break;
                             }
                             break;
@@ -176,48 +311,182 @@ public class Destination2 extends AppCompatActivity {
                         case ("Floor One"):
                             break;
                         case ("Floor Two"):
+                            switch(eRoom){
+                                case ("201"):
+                                    endCord = new int[] {139, 1};
+                                    break;
+                                case ("203"):
+                                    endCord = new int[] {135, 1};
+                                    break;
+                                case ("204"):
+                                    endCord = new int[] {130, 4};
+                                    break;
+                                case ("205"):
+                                    endCord = new int[] {133, 1};
+                                    break;
+                                case ("211"):
+                                    endCord = new int[] {122, 2};
+                                    break;
+                                case ("215"):
+                                    endCord = new int[] {120, 2};
+                                    break;
+                                case ("217"):
+                                    endCord = new int[] {118, 2};
+                                    break;
+                                case ("219"):
+                                    endCord = new int[] {116, 2};
+                                    break;
+                                case ("220"):
+                                    endCord = new int[] {121, 4};
+                                    break;
+                                case ("221"):
+                                    endCord = new int[] {114, 2};
+                                    break;
+                                case ("222"):
+                                    endCord = new int[] {119, 4};
+                                    break;
+                                case ("224"):
+                                    endCord = new int[] {115, 4};
+                                    break;
+                                case ("226"):
+                                    endCord = new int[] {111, 4};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Three"):
+                            switch(eRoom){
+                                case ("302"):
+                                    endCord = new int[] {97, 5};
+                                    break;
+                                case ("303"):
+                                    endCord = new int[] {92, 1};
+                                    break;
+                                case ("307"):
+                                    endCord = new int[] {88, 1};
+                                    break;
+                                case ("309"):
+                                    endCord = new int[] {86, 1};
+                                    break;
+                                case ("311"):
+                                    endCord = new int[] {84, 1};
+                                    break;
+                                case ("312"):
+                                    endCord = new int[] {85, 4};
+                                    break;
+                                case ("313"):
+                                    endCord = new int[] {82, 1};
+                                    break;
+                                case ("314"):
+                                    endCord = new int[] {83, 4};
+                                    break;
+                                case ("315"):
+                                    endCord = new int[] {80, 1};
+                                    break;
+                                case ("316"):
+                                    endCord = new int[] {79, 4};
+                                    break;
+                                case ("319"):
+                                    endCord = new int[] {78, 1};
+                                    break;
+                                case ("322"):
+                                    endCord = new int[] {75, 4};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Four"):
+                            switch(eRoom){
+                                case ("401"):
+                                    endCord = new int[] {67, 1};
+                                    break;
+                                case ("402"):
+                                    endCord = new int[] {65, 3};
+                                    break;
+                                case ("403"):
+                                    endCord = new int[] {65, 1};
+                                    break;
+                                case ("407"):
+                                    endCord = new int[] {63, 1};
+                                    break;
+                                case ("409"):
+                                    endCord = new int[] {61, 1};
+                                    break;
+                                case ("417"):
+                                    endCord = new int[] {52, 1};
+                                    break;
+                                case ("419"):
+                                    endCord = new int[] {50, 1};
+                                    break;
+                                case ("420"):
+                                    endCord = new int[] {49, 3};
+                                    break;
+                                case ("421"):
+                                    endCord = new int[] {48, 1};
+                                    break;
+                                case ("422"):
+                                    endCord = new int[] {43, 3};
+                                    break;
+                                case ("423"):
+                                    endCord = new int[] {46, 1};
+                                    break;
+                                case ("424"):
+                                    endCord = new int[] {40, 3};
+                                    break;
+                                case ("425"):
+                                    endCord = new int[] {44, 1};
+                                    break;
+                                case ("427"):
+                                    endCord = new int[] {42, 1};
+                                    break;
+                                default:
+                                    break;
+                            }
                             break;
                         case ("Floor Five"):
-                            switch(sRoom){
-                                case ("518"):
-                                    endCord = new int[] {3, 3};
+                            switch(eRoom){
+                                case ("501"):
+                                    endCord = new int[] {33, 1};
                                     break;
-                                case ("516"):
-                                    endCord = new int[] {7, 3};
+                                case ("502"):
+                                    endCord = new int[] {29, 3};
                                     break;
-                                case ("514"):
-                                    endCord = new int[] {13, 3};
+                                case ("503"):
+                                    endCord = new int[] {31, 1};
+                                    break;
+                                case ("505"):
+                                    endCord = new int[] {29, 1};
+                                    break;
+                                case ("507"):
+                                    endCord = new int[] {27, 1};
+                                    break;
+                                case ("509"):
+                                    endCord = new int[] {25, 1};
                                     break;
                                 case ("513"):
                                     endCord = new int[] {17, 1};
                                     break;
-                                case ("509"):
-                                    endCord = new int[] {24, 1};
+                                case ("514"):
+                                    endCord = new int[] {13, 3};
                                     break;
-                                case ("507"):
-                                    endCord = new int[] {26, 1};
+                                case ("516"):
+                                    endCord = new int[] {7, 3};
                                     break;
-                                case ("505"):
-                                    endCord = new int[] {28, 1};
+                                case ("518"):
+                                    endCord = new int[] {3, 3};
                                     break;
-                                case ("503"):
-                                    endCord = new int[] {30, 1};
-                                    break;
-                                case ("501"):
-                                    endCord = new int[] {32, 1};
-                                    break;
-                                case ("502"):
-                                    endCord = new int[] {28, 3};
+                                default:
                                     break;
                             }
                             break;
 
                     }
 
+
+                    Log.d("Start Cord", String.valueOf(startCord[1]) + "," + String.valueOf(startCord[0]));
+                    Log.d("End Cord", String.valueOf(endCord[1]) + "," + String.valueOf(endCord[0]));
 
                     List<String[]> route = nav.getPath(startCord, endCord);
 
@@ -226,9 +495,12 @@ public class Destination2 extends AppCompatActivity {
                     Log.d("Route", routeString);
 
                     for (int i = 0; i < route.size(); i++) {
-                        routeString += route.get(i)[0] + "";
-                        routeString += route.get(i)[1] + "";
-                        routeString += route.get(i)[2] + "\n";
+                        if (route.get(i)[2].contains("NT")) {
+                        }else {
+                            routeString += route.get(i)[0] + "";
+                            routeString += route.get(i)[1] + "";
+                            routeString += route.get(i)[2] + "\n";
+                        }
                     }
 
                     Log.d("Route: ", routeString);

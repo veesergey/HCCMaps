@@ -5,42 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.vsergeychik390.hccmaps.Directions">
-    <ImageView
-        android:id="@+id/arrowDirection"
-        android:layout_width="175dp"
-        android:layout_height="147dp"
-        android:layout_marginBottom="252dp"
-        android:layout_marginLeft="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:srcCompat="@android:drawable/arrow_up_float" />
-
-    <ImageView
-        android:id="@+id/imageDesc"
-        android:layout_width="166dp"
-        android:layout_height="147dp"
-        android:layout_marginBottom="252dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@android:drawable/star_on" />
 
     <TextView
-        android:id="@+id/messageBox"
-        android:layout_width="241dp"
-        android:layout_height="168dp"
-        android:layout_marginBottom="52dp"
-        android:layout_marginRight="68dp"
-        android:text="MessageBox"
+        android:id="@+id/routeText"
+        android:layout_width="338dp"
+        android:layout_height="323dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="14dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compass_image" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/compass_image"
+        android:layout_width="142dp"
+        android:layout_height="142dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/routeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/compass1" />
+
+    <TextView
+        android:id="@+id/DegreeTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="?android:attr/actionModeCloseDrawable"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="45dp" />
-
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="127dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/routeText"
+        app:layout_constraintEnd_toStartOf="@+id/compass_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -2,40 +2,130 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ae67d6a33f812e03aa43239796080a64d95d8007">
-        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2081cdeec3038cbd7ba46cb12490c7edced98e4a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jacobbashista/Desktop/HCCMaps/app/src/main/java/com/example/vsergeychik390/hccmaps/commons-io-2.6.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="815893df5f31da2ece4040fe0a12fd44b577afaf">
-        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-io-2.6_3b00b2c85fcbbc1e1290d2b9a43a908239254945/classes.dex" />
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/commons-io-2.6_3b00b2c85fcbbc1e1290d2b9a43a908239254945.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/4862b488699da0c283c7508c312df1b05f500a4b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_60edad606badbfabbaee70b0a82385f8d9ca1dd2/classes.dex" />
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_5c13ef9b1cdada4bc795c1aff60697dd2236ed18.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/jacobbashista/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0d2f7d6ce334c14666f9899a49edc63357246a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/4feb7a943fb5bf2cd0ec8774b34f0a50101fd4c8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_d19c20a3f60e1eb9c34d8edf6e4f8afb68846ba9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jacobbashista/Desktop/HCCMaps/app/src/main/java/com/example/vsergeychik390/hccmaps/GridNav-Java.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="e149b47bc5fec320aa0b3fe3d79759bf35459365">
-        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/transforms/dex/debug/folders/1000/2/GridNav-Java_11c775e6c4483231418a29ac93638324c4410eba/classes.dex" />
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/GridNav-Java_11c775e6c4483231418a29ac93638324c4410eba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/03dea6f5fe06e58148b575faad76bbf6ae4e395f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_2cf4bcb84b4cd4a28d7a28184315b6a411875c62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/2f151aaf0ae110237003f202dda63cedf70bf095/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_c39d0cb0d9da4909cdf20bbeb1178af310cf52dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_ddf987af48a29360c29e3f4a7ec7dfaa8e7a8552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/ff1fddd6d04708d937aba4124e7eaebc1e81f7fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_08c3f5007592cfa452fd4421aa49c6dcdff1a5b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/0be98cbad5667a185696c9e7b4105b1197fbd04b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_12e86d956271a2ac73ea8066071a3e6227dd8ef3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/d95876998f6a8ff95194d698b06779bb3f9fe396/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_f87abfc84dd2e81198290eaf22ff17d8535d973e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/64b577162f2752526634b679008a136270052e5f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_6711b83c64d3342b9231bd6817d995d3724c1887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/26d907b5a47a4deee3fb2aca0ee5ee663b55778c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_cbd2bb8b9388f2bbe9c46e7e82a5ae0dd7e12058.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jacobbashista/.android/build-cache/9651ab17d1203ae4df9996b3d31ffe0c7f068ea6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/jacobbashista/Desktop/HCCMaps/app/build/intermediates/pre-dexed/debug/classes_2fc295cfe864b28593b773561fd08f4089eb39f6.jar" />
     </item>
 
 </items>
